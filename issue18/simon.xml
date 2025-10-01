@@ -1,65 +1,197 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns='http://www.tei-c.org/ns/1.0'>
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type='main'>Heresies no 18</title>
-			</titleStmt>
-			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: cmp016@bucknell.edu</publisher></bibl>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div>
-				<pb n='40'/>
-				<p>
-					<lb facs='#facs_40_r_1_1_tl_1' n='N001'/>Me and the TV Stars
-					<lb facs='#facs_40_r_1_1_tl_2' n='N002'/>LESLIE SIMON
-				</p>
-				<p>
-					<lb facs='#facs_40_l' n='N001'/>from Jazz is for white girls, too
-					<lb facs='#facs_40_l_1' n='N002'/>When I was 8 years old, a girl on the block told me I looked like Rosemary Clooney and
-					<lb facs='#facs_40_l_2' n='N003'/>I was glaaaaad because I thought she was beautiful and sang real good. Hit Parade.
-					<lb facs='#facs_40_l_3' n='N004'/>And everyone else liked Geeeee-zelle McKenzie the best because she was more
-					<lb facs='#facs_40_l_4' n='N005'/>beautiful but I always liked the ones people felt a little sorry for. Could not STAND
-					<lb facs='#facs_40_l_5' n='N006'/>Annette Funicello—everybody talking about how sweet she was. I knew she wasn’t.
-				</p>
-				<p>
-					<lb facs='#facs_40_l_6' n='N001'/>So when the grown-ups had a talent show, me and 2 girl friends signed up for a
-					<lb facs='#facs_40_l_7' n='N002'/>singing trio spot. The guys in the band laughed at our 8-year-old selves and said they
-					<lb facs='#facs_40_l_8' n='N003'/>didn’t know how they could accompany us but when we started blowing
-					<lb facs='#facs_40_l_9' n='N004'/>&quot;Come on-a my house
-					<lb facs='#facs_40_l_10' n='N005'/>My house come on-a&quot;
-					<lb facs='#facs_40_l_11' n='N006'/>they knew just what to do and did what I didn’t know then was called improvising.
-					<lb facs='#facs_40_l_12' n='N007'/>They did fine—made me happy. We were good and I stood in the middle because
-					<lb facs='#facs_40_l_13' n='N008'/>it was my idea and I looked like Rosemary Clooney.
-				</p>
-				<p>
-					<lb facs='#facs_40_r_4_1_tl_1' n='N001'/>A few weeks ago I heard about her now being 47 years old and her coming back
-					<lb facs='#facs_40_r_4_1_tl_2' n='N002'/>after being 200 pounds and hallucinating and my 8-year-old self shivered.
-					<lb facs='#facs_40_r_4_1_tl_3' n='N003'/>&quot;I don’t want that to happen to me.&quot; And my 28-year-old self wondered at women
-					<lb facs='#facs_40_r_4_1_tl_4' n='N004'/>losing themselves to drugs, to food, to alcohol, to madness over and over again.
-					<lb facs='#facs_40_r_4_1_tl_5' n='N005'/>So hard for women to be healthy when they’re good. Women aren’t supposed to
-					<lb facs='#facs_40_r_4_1_tl_6' n='N006'/>be smart or write books or get famous.
-					<lb facs='#facs_40_r_4_1_tl_7' n='N007'/>All those suicides.
-					<lb facs='#facs_40_r_4_1_tl_8' n='N008'/>All those lost lives.
-					<lb facs='#facs_40_r_4_1_tl_9' n='N009'/>And there was Rosemary Clooney staring out of a picture that said she said she lost
-					<lb facs='#facs_40_r_4_1_tl_10' n='N010'/>65 of the 80 pounds she gained. O! but she was different, her hands folded and her legs
-					<lb facs='#facs_40_r_4_1_tl_11' n='N011'/>crossed like we were supposed to do in kindergarten and her face smiling.
-					<lb facs='#facs_40_r_4_1_tl_12' n='N012'/>Was she happy now?
-				</p>
-				<p>
-					<lb facs='#facs_40_r_5_1_tl_1' n='N001'/>Leslie Simon’s most recent book, High Desire
-					<lb facs='#facs_40_r_5_1_tl_2' n='N002'/>(Wingbow Press) is about female sexuality.
-					<lb facs='#facs_40_r_5_1_tl_3' n='N003'/>She teaches Women’s Studies at City College
-					<lb facs='#facs_40_r_5_1_tl_4' n='N004'/>of San Francisco.
-				</p>
-			</div>
-		</body>
-	</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css" title="LEAF" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>title</title>
+            <author>name</author>
+            <respStmt>
+               <persName>Eowyn Andres</persName>
+               <resp>Editor (2024-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Haley Beardsley</persName>
+               <resp>Editor (2021-2024)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Lyndon Beier</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Erica Delsandro</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mia DeRoco</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Margaret Hunter</persName>
+               <resp>Editor (2021-2024)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <resp>Invesigator, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sophie McQuaide</persName>
+               <resp>Editor (2021-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Olivia Martin</persName>
+               <resp>Editor, encoder (2021)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Zoha Nadeer</persName>
+               <resp>Editor (2022-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bri Perea</persName>
+               <resp>Editor (2022-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Carrie Pirmann</persName>
+               <resp>Editor, encoder (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Valeria Riley</persName>
+               <resp>Editor (2024-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ricky Rodriguez</persName>
+               <resp>Editor (2022-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roger Rothman</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Valeria Riley</persName>
+               <resp>Editor (2024-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kaitlyn Segreti</persName>
+               <resp>Editor (2021-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maggie Smith</persName>
+               <resp>Editor (2021-2024)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maya Wadhwa</persName>
+               <resp>Editor (2021-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kelly Troop</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Lucy Wadswoth</persName>
+               <resp>Editor (2022-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Marie Wingard</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Olivia Wychock</persName>
+               <resp>Graduate Editor (2024-Present)</resp>
+            </respStmt>
+            <funder>Bucknell University Humanities Center</funder>
+            <funder>Bucknell University Office of Undergraduate Research</funder>
+            <funder>The Mellon Foundation</funder>
+            <funder>National Endowment for the Humanities</funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Bucknell University</name>
+               <address>
+                  <street>One Dent Drive</street>
+                  <settlement>Lewisburg</settlement>
+                  <region>Pennsylvania</region>
+                  <postCode>17837</postCode>
+               </address>
+            </distributor>
+            <availability>
+               <licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial 4.0
+                  International (CC BY-NC 4.0)</licence>
+               <licence>Heresies journal: © Heresies Collective</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Mothers, Mags and Movie Stars: Feminism and Class</title>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <publisher>HERESIES: A Feminist Publication on Art and Politics</publisher>
+                     <pubPlace>
+                        <address>
+                           <name>Heresies</name>
+                           <postBox>P.O. Boxx 766, Canal Street Station</postBox>
+                           <settlement>New York</settlement>
+                           <region>New York</region>
+                           <postCode>10013</postCode>
+                        </address>
+                     </pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n='40'/>
+            <p>
+               Me and the TV Stars
+               <persName>LESLIE SIMON</persName>
+            </p>
+            <p>
+               from <title>Jazz is for white girls, too</title>
+               When I was 8 years old, a girl on the block told me I looked like <persName>Rosemary Clooney</persName> and
+               I was glaaaaad because I thought she was beautiful and sang real good. Hit Parade.
+               And everyone else liked <persName>Geeeee-zelle McKenzie</persName> the best because she was more
+               beautiful but I always liked the ones people felt a little sorry for. Could not STAND
+               <persName>Annette Funicello</persName>—everybody talking about how sweet she was. I knew she wasn’t.
+            </p>
+            <p>
+               So when the grown-ups had a talent show, me and 2 girl friends signed up for a
+               singing trio spot. The guys in the band laughed at our 8-year-old selves and said they
+               didn’t know how they could accompany us but when we started blowing
+               &quot;Come on-a my house
+               My house come on-a&quot;
+               they knew just what to do and did what I didn’t know then was called improvising.
+               They did fine—made me happy. We were good and I stood in the middle because
+               it was my idea and I looked like <persName>Rosemary Clooney</persName>.
+            </p>
+            <p>
+               A few weeks ago I heard about her now being 47 years old and her coming back
+               after being 200 pounds and hallucinating and my 8-year-old self shivered.
+               &quot;I don’t want that to happen to me.&quot; And my 28-year-old self wondered at women
+               losing themselves to drugs, to food, to alcohol, to madness over and over again.
+               So hard for women to be healthy when they’re good. Women aren’t supposed to
+               be smart or write books or get famous.
+               All those suicides.
+               All those lost lives.
+               And there was <persName>Rosemary Clooney</persName> staring out of a picture that said she said she lost
+               65 of the 80 pounds she gained. O! but she was different, her hands folded and her legs
+               crossed like we were supposed to do in kindergarten and her face smiling.
+               Was she happy now?
+            </p>
+            <p>
+               Leslie Simon’s most recent book, <title>High Desire</title>
+               (Wingbow Press) is about female sexuality.
+               She teaches Women’s Studies at <orgName>City College
+               of San Francisco</orgName>.
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>
