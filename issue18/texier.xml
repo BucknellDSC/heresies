@@ -1,3 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css" title="LEAF" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>title</title>
+            <author>name</author>
+            <respStmt>
+               <persName>Eowyn Andres</persName>
+               <resp>Editor (2024-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Haley Beardsley</persName>
+               <resp>Editor (2021-2024)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Lyndon Beier</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Erica Delsandro</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Mia DeRoco</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Margaret Hunter</persName>
+               <resp>Editor (2021-2024)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Diane Jakacki</persName>
+               <resp>Invesigator, encoder</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Sophie McQuaide</persName>
+               <resp>Editor (2021-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Olivia Martin</persName>
+               <resp>Editor, encoder (2021)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Zoha Nadeer</persName>
+               <resp>Editor (2022-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bri Perea</persName>
+               <resp>Editor (2022-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Carrie Pirmann</persName>
+               <resp>Editor, encoder (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Valeria Riley</persName>
+               <resp>Editor (2024-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ricky Rodriguez</persName>
+               <resp>Editor (2022-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roger Rothman</persName>
+               <resp>Investigator, editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Valeria Riley</persName>
+               <resp>Editor (2024-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kaitlyn Segreti</persName>
+               <resp>Editor (2021-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maggie Smith</persName>
+               <resp>Editor (2021-2024)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maya Wadhwa</persName>
+               <resp>Editor (2021-2023)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Kelly Troop</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Lucy Wadswoth</persName>
+               <resp>Editor (2022-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Marie Wingard</persName>
+               <resp>Editor (2023-Present)</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Olivia Wychock</persName>
+               <resp>Graduate Editor (2024-Present)</resp>
+            </respStmt>
+            <funder>Bucknell University Humanities Center</funder>
+            <funder>Bucknell University Office of Undergraduate Research</funder>
+            <funder>The Mellon Foundation</funder>
+            <funder>National Endowment for the Humanities</funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Bucknell University</name>
+               <address>
+                  <street>One Dent Drive</street>
+                  <settlement>Lewisburg</settlement>
+                  <region>Pennsylvania</region>
+                  <postCode>17837</postCode>
+               </address>
+            </distributor>
+            <availability>
+               <licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial 4.0
+                  International (CC BY-NC 4.0)</licence>
+               <licence>Heresies journal: © Heresies Collective</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Mothers, Mags and Movie Stars: Feminism and Class</title>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <publisher>HERESIES: A Feminist Publication on Art and Politics</publisher>
+                     <pubPlace>
+                        <address>
+                           <name>Heresies</name>
+                           <postBox>P.O. Boxx 766, Canal Street Station</postBox>
+                           <settlement>New York</settlement>
+                           <region>New York</region>
+                           <postCode>10013</postCode>
+                        </address>
+                     </pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n='22'/>
+            <p>
+               Nancine, Lili
+               &amp; Chloe
+            </p>
+            <p>
+               <persName>Catherine Texier</persName>
+            </p>
+            <p>
+               I was watching Lili come down the stairs, my feet naked on the hallway tiles. Her
+               hair, short and curly, waved like a crest above her head. She pressed her hand on
+               her face to iron out the night wrinkles. When she took me in her arms, I saw the
+               bulge of her breasts in the opening of her pale nylon dressing-gown.
+            </p>
+            <p>
+               Coming out of the kitchen, my grandmother Nancine frowned and told Lili
+               (her daughter, my mother), to tighten her robe, to try to be decent in front of her
+               child. We walked one by one along the corridor lined by high wood bookshelves,
+               Nancine last, holding the big enamel coated coffee pot wrapped in a wash cloth.
+               She poured the coffee and the steaming milk in our bowls, set side by side on the
+               oil cloth, and opened the last issue of <title>Modes et Travaux</title>. There was always a stack
+               of magazines on a low table by the window. They were used as constant references,
+               and <title>Modes et Travaux</title>, a journal with a flair for pillow emboideries and crocheted
+               dresses, was Nancine’s bible and book of etiquette.
+            </p>
+            <p>
+               With an authoritative finger she leafed through the pages of the magazine. She
+               pointed to the models with a nail filed to a sharp oval, to clothes with prettyish,
+               concealed shapes, with modest waists, innocent pink piping, and flowered prints.
+               She oozed with pleasure and anticipation.
+               &quot;That would look good on you, Chloe. Look at this little suit.&quot;
+            </p>
+            <p>
+               <title>MARIE-CLAIRE</title> — July 1966. The skirts are all cut above the knee, the
+               hair is bobbed, or long and teased. Black eyeliner, fake eyelashes. Pale
+               mouths, white with a touch of mauve.
+            </p>
+            <p>
+               &quot;Isn’t it smart with the white blouse underneath
+            </p>
+            <p>
+               When Nancine spoke she smacked her tongue, savoring each syllable like a
+               rosary, bead by bead, squeezing the last word in her throat as if swallowing our
+               gaze and our attention at the same time.
+            </p>
+            <p>
+               Grudgingly I approved the suit, blew a docile yes. Lili sniffed, wiping her
+               mouth with the back of her hand, stretching her neck to see the model.
+            </p>
+            <p>
+               <title>ELLE</title> — July 1966. <persName>Catherine Deneuve</persName> and <persName>Brigitte Bardot</persName>, the blonds
+               with the pouts, both <persName>Vadim</persName>’s ex-lovers, wear their long hair tousled,
+               bangs sexily disarrayed and hanging below the eyebrows.
+            </p>
+            <p>
+               &quot;With your napkin, Lili.
+               Not with your hand.&quot;
+            </p>
+            <p>
+               Lili&apos;s mood flipped like
+               a pancake, her forehead
+               hardened. Tension tightened up her face, her body; her fingers played with her belt,
+               her mouth twitched. I heard her breath come out with a hissing
+               sound. Nancine gave her a cold look, her pale eyes narrowing
+               the irises crouched under her thick brow like two little ferocious beasts, enjoying their victory over chaos. Then, lowering
+               her head, she licked thè tip of her fingers to thumb the pages
+               more easily, the pages gliding smoothly and regularly, one on
+               top of the other.
+            </p>
+            <p>
+               &quot;What about that dress, Chloe, look how pretty it is!
+               With the flat of her hand Nancine pushed the magazine towards my bowl. Her finger, swollen and twisted by arthritis
+               was pointing to a navy-blue schoolgirl’s dress with a round collar, and a pleated skirt coming down to the calves.
+            </p>
+            <p>
+               -<persName>Brigitte Bardot</persName>, in a pink and white checked
+               bikini, runs on a Mediterranean beach splashed
+               with sun. Her photograph illustrates an article
+               entitled <title>“How to Keep Your Knees Young?”</title> in
+               the August issue of <title>Elle</title>. “Look at our B.B.! She
+               shows her knees. They look like beautiful smooth
+               pebbles. You too can make your knees beautiful.
+            </p>
+            <p>
+               The tension spread through Lili’s body. Rage lifted her fingers,
+               her shoulders, her lips. She grabbed her bowl and held it halfway up to her chin, fighting against the waves of hate. I saw
+               them pulse on the side of her neck. Then they exploded. The
+               bowl crashed against the table, the spoon against the plate, a
+               fist, two fists one after the other, two bombs on the red and
+               white checked oilcloth.
+            </p>
+            <p>
+               &quot;Enough is enough. Chloe is my daughter. Nobody is going
+               to tell her what to wear. And least of all you.&apos;
+               The door slammed so hard I thought the glass windows
+               would fall off the frame.
+            </p>
+            <p>
+               Nancine swung her chin, that was strong and stubborn and
+               locked her mouth with fierce willpower; she made me witness
+               my mother’s impudence, in order to weed from me the smallest germs of evil.
+            </p>
+            <pb n='23'/>
+            <p>
+               -Something is stirring in <placeName>London</placeName> according to
+               <title>Elle</title>. Midthigh mini-skirts, op and pop. <persName>Mary
+               Quant</persName> and <placeName>Carnaby Street</placeName>. The key words are
+               sex and pleasure. <persName>Jean Shrimpton</persName> pops out of
+               the page, flaring nostrils, huge blue eyes circled
+               by spread-out fake eyelashes mascaraed over, one
+               by one; her hair is like a lioness’ mane.
+            </p>
+            <p>
+               &quot;At least you are a good girl, Chloe.&quot;
+            </p>
+            <p>
+               —“A woman must always feel like she is behind a
+               man”, says <persName>Anna Karina</persName> in a <date>May 1966</date> interview. The star of <persName>Godard</persName>’s movies, black bangs
+               and dark beauty, adds, “A woman’s condition is
+               to be in the background.
+            </p>
+            <p>
+               Her dry hand with its translucent skin stretched over blue veins
+               settled upon mine. She smelled of lavender soap. A gold wedding ring shone on her finger. Her nails were done with clear
+               polish. I could feel how satisfied she was to see me so docile.
+               She had me wrapped up in her laces, her mauve and pale blue
+               crocheted shawls. The sun drew a golden triangle through the
+               French door, threw milky drops of light upon the collection of
+               liquor glasses displayed in their glass case.
+               &quot;I can’t get no satisfaction. I can’t get no...
+               &quot;What are you singing?
+               Nothing.
+               I felt like falling asleep.
+            </p>
+            <p>
+               <title>MARIE-CLAIRE</title> — <date>July 1966</date>. <persName>Monica Vitti</persName> is interviewed. She is gorgeous. Her face full of freckles. Another blond with a pout. She says: “A man
+               must be able to create, first and foremost. The
+               woman who helps the man she loves to create better, she is his true woman. The big difference is
+               that I could drop everything for him, including
+               my work, whereas he would drop everything but
+               his work.... In summer my skin is covered with
+               freckles. Too bad. When I met <persName>Michelangelo</persName> I
+               had freckles. Too bad. A man’s love is not stopped
+               by these details”
+            </p>
+            <p>
+               Lili’s room was a joyful mess of scattered shoes, underwear
+               rolled up under the chairs, books piled high on the night table
+               and on the floor, knick-knacks brought back from Italy and
+               Greece, with paintings and snapshots that, most of the time
+               she did not bother to hang on the walls. Her disorder held its
+               ground against the invasion of the house. As soon as you opened
+               the door you were hit by the smell of English cigarettes and
+               perfume and you forgot the rest.
+            </p>
+            <p>
+               She was sitting on her bed, her toenails freshly polished
+               and held apart by small cotton balls, skimming through a fashion magazine, looking at photos with bright velvety colors, im
+            </p>
+            <p>
+               ages of princesses, of stars made up to perfection, delicately
+               jeweled, promising happiness. She didn’t read the same magazines as Nancine, and she touched them sensually, with the
+               palm of her hand, savoring the glossiness of the paper, the smell
+               of fresh ink. She pointed to embroidered bras, panties in peach¬
+               colored elastic lace, arched pumps with high heels, while I,
+               standing in front of the mirror, tried to straighten the thick brown
+               curls I hated with brush and hair-dryer, and wrapped myself
+               in a cloud of acrid smelling lacquer that caked the hair hard
+               but guaranteed a perfect hold against winds and kisses.
+            </p>
+            <p>
+               &quot;What do you think of these pumps?
+               Let me see? Hmm. Not bad.
+            </p>
+            <p>
+               I had not moved from the mirror. I was too busy trying to
+               roll between thumb and finger a lock that was supposed to
+               curve under the chin like the others
+            </p>
+            <p>
+               <title>ELLE</title>—<date>October 1966</date>. “In <placeName>America</placeName> they don’t
+               speak of love anymore, but of sex.” The pictures
+               show young Americans with their hair cut in bangs
+               like <persName>the Beatles</persName> and wearing blue jeans, the girls
+               with knee-high socks. Someone claims: “Virginity is dead. <persName>Nancy Sinatra</persName>’s song: “These boots
+               are made for walking’ is a hit in <placeName>France</placeName>...
+            </p>
+            <p>
+               Lili laughed
+               "You’re not listening to me. You didn’t even see what I was
+               showing to you!
+               We both sat on the unmade bed. I felt her warm thigh through
+               her robe. We were bent over photos of stretched calves, low
+               necked blouses revealing small breasts, enchanting smiles.
+               I like that one.
+               It was a dress in purple wool, cut above the knee, a belt tied
+               around the hips.
+               &quot;And look at these fish net stockings!&quot;
+            </p>
+            <p>
+               —There is a full page photograph of <persName>Juliette
+               Greco</persName>, the existentialists’ idol from the fifties. Her
+               words have a sneer that you don’t see in the picture. She says: “My work is abnormal. It’s a man&apos;s
+               work. It is not my role.
+            </p>
+            <p>
+               I was having breakfast at the kitchen table, pouring over the
+               glossy pages of <title>Elle</title>, when Nancine emerged from the basement, an armful of freshly clean laundry held tight against her
+               chest. She leant over my shoulder. &quot;What are you reading again!
+               When I think that you have studied <lang>Latin</lang> and <lang>Greek</lang>! It’s these
+               magazines that are giving you these ideas. And these skirts
+               that get shorter every season. Look at you. Pretty soon you’re
+               going to show your thighs. What a shame! What a shame!&quot;
+            </p>
+            <p>
+               -<persName>Mireille Darc</persName>, the new French star, is all teeth
+               and skinny legs like a grasshopper. She just made
+               a movie called Galia, a mid-sixties hit. Galia
+               is about girls who work and make love with men.
+               FREE LOVE.
+            </p>
+            <p>
+               <date>October 1967</date>. <persName>Vadim</persName> has taken a new lover. <persName>Jane Fonda</persName>. More
+               curves and pouting lips. She is the star of Barbarella.
+            </p>
+            <p>
+               <date>May 1968</date>. I dye my hair blond and leave the house.
+            </p>
+            <p>
+               Catherine Texier is a French writer living in <placeName>New York</placeName>. Her first novel, <title level="m">Chloe
+               l’Atlantique</title>, was published in <placeName>Paris</placeName>, <date>1983</date>. She is currently at work on her
+               second. She is co-editor of <title level="j">Between C and D</title> magazine.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns='http://www.tei-c.org/ns/1.0'>
 	<teiHeader>
