@@ -1,494 +1,500 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/main/CSS/leaf.css" title="LEAF" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type='main'>Heresies no 18</title>
+				<title>title</title>
+				<author>name</author>
+				<respStmt>
+					<persName>Eowyn Andres</persName>
+					<resp>Editor (2024-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Haley Beardsley</persName>
+					<resp>Editor (2021-2024)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Lyndon Beier</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Erica Delsandro</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Mia DeRoco</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Margaret Hunter</persName>
+					<resp>Editor (2021-2024)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Diane Jakacki</persName>
+					<resp>Invesigator, encoder</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Sophie McQuaide</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Martin</persName>
+					<resp>Editor, encoder (2021)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Zoha Nadeer</persName>
+					<resp>Editor (2022-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bri Perea</persName>
+					<resp>Editor (2022-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Carrie Pirmann</persName>
+					<resp>Editor, encoder (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Valeria Riley</persName>
+					<resp>Editor (2024-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Ricky Rodriguez</persName>
+					<resp>Editor (2022-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Roger Rothman</persName>
+					<resp>Investigator, editor</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Valeria Riley</persName>
+					<resp>Editor (2024-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kaitlyn Segreti</persName>
+					<resp>Editor (2021-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maggie Smith</persName>
+					<resp>Editor (2021-2024)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Maya Wadhwa</persName>
+					<resp>Editor (2021-2023)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Kelly Troop</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Lucy Wadswoth</persName>
+					<resp>Editor (2022-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Anna Marie Wingard</persName>
+					<resp>Editor (2023-Present)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Olivia Wychock</persName>
+					<resp>Graduate Editor (2024-Present)</resp>
+				</respStmt>
+				<funder>Bucknell University Humanities Center</funder>
+				<funder>Bucknell University Office of Undergraduate Research</funder>
+				<funder>The Mellon Foundation</funder>
+				<funder>National Endowment for the Humanities</funder>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
+				<distributor>
+					<name>Bucknell University</name>
+					<address>
+						<street>One Dent Drive</street>
+						<settlement>Lewisburg</settlement>
+						<region>Pennsylvania</region>
+						<postCode>17837</postCode>
+					</address>
+				</distributor>
+				<availability>
+					<licence>Bucknell Heresies Project: Creative Commons Attribution-NonCommercial
+						4.0 International (CC BY-NC 4.0)</licence>
+					<licence>Heresies journal: © Heresies Collective</licence>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl><publisher>TRP document creator: cmp016@bucknell.edu</publisher></bibl>
+				<biblStruct>
+					<analytic>
+						<title>Mothers, Mags and Movie Stars: Feminism and Class</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>HERESIES: A Feminist Publication on Art and
+								Politics</publisher>
+							<pubPlace>
+								<address>
+									<name>Heresies</name>
+									<postBox>P.O. Boxx 766, Canal Street Station</postBox>
+									<settlement>New York</settlement>
+									<region>New York</region>
+									<postCode>10013</postCode>
+								</address>
+							</pubPlace>
+						</imprint>
+					</monogr>
+				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div>
-				<pb n='44'/>
-				<p>
-					<lb facs='#facs_44_l' n='N001'/>WAR,
-					<lb facs='#facs_44_l_1046' n='N002'/>WOMEN,
-					<lb facs='#facs_44_l_1052' n='N003'/>AND
-					<lb facs='#facs_44_l_1058' n='N004'/>Lipstick
+				<pb n="44"/>
+				<p> WAR, WOMEN, AND Lipstick </p>
+				<p> FAN MAGS IN THE FORTIES </p>
+				<p> BY <persName>JANE GAINES</persName>
 				</p>
+				<p> The fan mags of the <date>1940s</date> claimed to Tell All about the stars
+					intimate lives, but their real subject was their readers’ intimate problems.
+					They differed from the old scandal-hungry &quot;fanzines of the
+						<date>’20s</date> and <date>’30s</date>, which had helped to lure audiences
+					back into movie theatres when business fell off just before the Talkies. Around
+					the mid-’30s, fan-mag gossip, in addition to motion pictures themselves, came
+					under the surveillance of the Federal Production Code.
+							<orgName><placeName>Hollywood</placeName> studios</orgName> kept close
+					watch for potentially libelous or unfavorable stories by blacklisting writers
+					through the Hays Office and checking copy before it went to print </p>
+				<p> After <date>1935</date>, when the major fan magazine publishers moved their
+					offices from <placeName>New York</placeName> to Hollywood, stories became tame
+					and preachy. In <date>1939</date>, <title>Glamour of Hollywood</title> became
+						<title>Glamour</title> and in <date>1944</date>, <title>Stardom</title>
+					became <title>Seventeen</title>. During the war years star gossip thus became a
+					glitzy sheen over this new hybrid product—daughter of the romance-confession
+					magazine and the fashion-beauty guide. The largest-circulation fan magazines,
+					published by <persName>MacFadden</persName>, <persName>Fawcett</persName>, and
+						<persName>Dell</persName>, were designed to </p>
+				<p> &quot;discover” the working-class woman consumer and to deliver her to the
+					advertisers. Because these magazine test vehicles responded rapidly to readers’
+					interests and went quickly in and out of print, they offer clues to patterns in
+					working-class women’s consciousness, to the way class differences affected
+					gender differentiation and the way history further deflects social distinctions. </p>
+				<p> Fan magazines during the war years used stars to lend credibility to
+					advertisers’ claims and to define &quot;respectability” for their readers. Why
+					were Hollywood stars—synonymous with vulgarity and sex scandal during the ’20s
+					and ’30s—suddenly representative of taste, breeding, and propriety? The
+					archetypal star success story began with the small-town girl who lived above a
+					dime store in a tiny but neat and clean apartment with a single potted plant in
+					a tin can on the fire escape. Her Hollywood initiation included the improvement
+					of her grammar and diction. For working-class fans, becoming a star meant social
+					mobility. The fan magazines doted on women like <persName>Joan
+						Crawford</persName>, who had so thoroughly &quot;bettered&quot; themselves. </p>
+				<pb n="45"/>
+				<p> For publishers, the supreme function of fan magazines was to channel fantasy and
+					envy into practical consumption. Once associated with a star, inexpensive bath
+					soap and powder, for instance, were invested with an aura of wealth and luxury.
+					The fan magazines upheld absolute social distinctions, as reflected in
+					consumption hierarchies—a fox fur was preferable to a beaver coat. At the same
+					time, the magazines despised social overreach and ostentation. To flatter the
+					working-class reader, the stars had to be &quot;brought down&quot;; to encourage
+					middle-class aspiratios had to be &quot;held up.” Often, the same star was
+					demoted one month and elevated the next. </p>
+				<p> During the war years, the monthly column written by &quot;Fear less&quot; in
+						<title>Photoplay-Movie-Mirror</title> revealed that although the stars
+					seemed to have everything, they were basically the same kind of people as their
+					fans. <persName>Lana Turner</persName>, although she wore sables with a clinging
+					white jersey to the premiere of <title>Yank in the R.A.F.</title>, had rented
+					the fur; <persName>Olivia de Haviland</persName> posed before an elegant house
+					in a posh neighborhood because she actually lived in a more modest home.* As if
+					to reassure readers that their own tastes were not too cheap, their cultural
+					preferences not too lowbrow, the magazines criticized stars for cultivating
+					interests in opera, painting, classical music, and literature. <persName>Betty
+						Hutton</persName> whose best friend was her hairdresser, according to
+						<title>Modern Screen</title> in <date>August 1943</date>, was quoted as
+					saying that anything more than light reading gave her a headache. </p>
+				<p> Sociologist have understood film stars as &quot;idols of consumption,&quot; </p>
+				<p> models for fashionable spending in a society that had evolved from a production
+					to a consumption economy.* Yet in the fan magazines, consumption idolatry on the
+					scale of swimming pools and limousines was discouraged. During the war years,
+					the Hollywood poolside and nightclub life style was unpopular not only because
+					luxury goods were unavailable, but also because extravagance was unpatriotic.
+					Stars, incredibly, were recast as models of practicality, constraint and thrift,
+					&quot;smart shoppers” who &quot;knew good value.“ &quot;Fearless&quot; told
+					readers in <date>1943</date> that <persName>Ann Sheridan</persName> would not
+					install a swimming pool until she had paid off her mortgage, that she bought
+					Victory Bonds with her egg money, and paid her taxes with proceeds from her
+					walnut crop. The message was, “Don’t wish for what you can’t afford, but do wish
+					for something better than what you’ve got." </p>
+				<p> If the wartime fan magazines preached caution and good sense in their advice
+					columns and editorials, a glance through their other pages suggests a different
+					message. Star studio glamour portraits—8 x 10&quot; glossies of actresses with
+					glycerine-tipped lips—were alluring invitations to reverie and aspiration, even
+					when reproduced on the cheap newsprint of the war years. Glamour—combining
+					glitter and <lang>amour</lang>, the perfect amalgam of money and love—was
+					absorbed into every topic of interest to women, so that the most
+					&quot;down-to-earth” advice about washing woolens and powdering girdles became
+					imbued with romantic possibilities. </p>
+				<p> Since the 40s, the mass circulation magazine beauty advice column has continued
+					to make its contribution to continued oppression by imprisoning woman within and
+					through her body. It rationalizes and justifies painful and often impossible
+					physical ideals; it cheers and admonishes women readers in their battle with
+					biological givens. Most significantly, it never allows a moment of doubt about
+					the rules, immersing the reader in a reservoir of knowledge, so that beauty
+					tricks and illusions would be necessary to fill out her social reality. In the
+					war years, these columns alluded vaguely to the unfavorable consequences of
+					failure to adhere to such beauty rigors as regular body hair removal, nightly
+					hosiery washing, and walking with toes pointed, tummy tight. No more than a hint
+					at the ill effects of beauty care delinquency was necessary. Inconsistent and
+					oblivious to logic, &quot;beauty knowledge&apos; is self-referential,
+					tautological, needlessly repetitive. (&quot;Leg loveliness&quot; equals
+					&quot;glamour dividends,” so leg loveliness pays off.) <persName>Roland
+						Barthes</persName> has noted that a tautology requires the edge of authority
+					to succeed, which explains the success of parental discourse which answers
+					&quot;why&quot; with &quot;because.&quot; The <title>Photoplay</title> column on
+					leg loveliness (&quot;From Hem to Toes&quot;) acquires authority from
+						<persName>Willys</persName>, the &quot;Hollywood Stocking King” who not only
+					invented beige and suntone hosiery, but created <persName>Ginger
+						Rogers</persName>’ latex mesh dance stockings. Tautologically, &quot;because
+					leg loveliness is his business, Willys knows the importance of well-groomed,
+					pretty legs.&quot; The stars authorized the trivial and elevated the
+					inconsequential: “An unpressed dress or an uneven hemline can ruin the romantic
+					career of the prettiest girl in town,&quot; warned <persName>Claudete
+						Colbert</persName>.* </p>
+				<p> Beauty knowledge, dedicated to its own self-evidence, can be harnessed to more
+					elevated concepts, so that in wartime, skin care and make-up ritual could become
+					a patriotic duty. Along with such ordinary objects as rubber tires and canned
+					goods, lipstick was elevated to a symbol of democracy and freedom. The fan
+					magazines linked lipstick with courage and emotional fortitude. A
+						<orgName>Tangee</orgName> advertisement showed two women in overalls, one
+					taking over the controls of an airplane; Lipstick, it said, is &quot;an
+					instrument of personal morale that helps her conceal heartbreak or sorrow; gives
+					her self-confidence when it’s badly needed...&quot;* The image of glistening
+					lips, defying weather, sorrow, and drudgery helped to eroticize a bleak work
+					situation with no men in sight. The combination of lipstick and overalls
+					reassured women that they could step into &quot;men’s work&quot; without losing
+					&quot;feminine attributes,&quot; and held at bay the fear that the new
+					&quot;tough girls&quot; might be lesbians.* </p>
+				<pb n="46"/>
+				<p> Even if there’s one around, give it to the <orgName>Scrap Drive</orgName>
+					because there’s no place for bustles in <date>1943</date> any more than there’s
+					a place for a gal who’s just willing to sit around and let other people win the
+					war for her. When you come right down to it—it&apos;s a question of WHAT you’re
+					going to do. That&apos;s where <orgName>Embry-Riddle</orgName>—America’s
+					largest, private aviation school—comes in. Our Aviation Advisor to Women can
+					help you along the road—either to the Services or Industry, a career or war time
+					job. There are twenty-two Specialist courses to train you for positions of
+					responsibility. Set in the War Effort—but don&apos;t waste what YOU have to
+					offer! </p>
+				<p> But if lipstick was an emblem of high femininity, it was also a sign of low
+					female sexuality. Some of the discrepancies between the symbolic function of
+					lipstick in wartime, conventional attiudes towards make-up, and young women’s
+					expressive use of cosmetics, are important illustrations of the struggle over
+					meaning in sexually-charged social practices and symbology <persName>Katherine
+						Archibald</persName>’s <title>Wartime Shipyard</title>, a sociological study
+					of the <orgName>Moore Dry Dock Company</orgName> in <placeName>Oakland,
+						California</placeName>, in <date>1942</date>, brings together the themes of
+					cosmetics and dress as they relate to economics, social class, and sexuality.
+					Dress regulations for women in the yard were stricter than in the office, and
+					women guards checked for jewelry and stray curls. The literal connection between
+					dangerous sexual distraction and beauty devices was demonstrated by the case of
+					the wife of a philandering shipyard official who, with handkerchief and nail
+					polish remover, forced the young women working for him to remove their make-up.
+					The &quot;vastly experimental young girls&quot; and &quot;giddy charmers” (as
+					Archibald, then a student at <placeName>Stanford</placeName>, describes the
+					women workers) delighted in taunting both the female guards and male workers by
+					revealing, beneath their work clothes, as much thigh or then taboo
+					&quot;sweater” as possible.* </p>
+				<p> These conflicts reflect clashes between the make-shift position whereby women
+					&quot;belonged&quot; at work during the war and traditional wisdom about
+					&quot;woman’s place in the home. Just as unstable was the national version of
+					correct female sexual behavior. For the duration, prostitution was redefined, as
+					women were prosecuted for sexual activity which did not involve emotional
+					sincerity.* Archibald interprets </p>
+				<p> differences in the graffiti on the walls of the men’s and women’s lavatories at
+					Moore Dry Dock as evidence that the women were far more &quot;preoccupied with
+					sex than the men. On a national scale, this kind of observation accelerated into
+					concern about female &quot;sex delinquency. These fears centered on young women
+					who either ran away from home or were without respectable middle-class
+					backgrounds. Make-up could signify sexual laxity to community moral arbiters,
+					while images of prettified factory workers could symbolize women’s sacrifice to
+					the nation. Thus young women’s experimentation with rouge and eye make-up could
+					be either a declaration of recalcitrance or proof of conformity. It could be
+					read either as a result of financial independence or as a general defiance of
+					authority. But as a plea for social acceptance (by men), it contained an
+					unfortunate irony. </p>
+				<p> For young working-class women, such sexual expression was more significant than
+					it could possibly have been for middleclass women, whose wartime mobility and
+					financial opportunity did not offer, relatively, such drastic changes in her
+					dependence upon either home or husband.* Outbursts of sexual and financial
+					freedom among working-class women were a greater threat to hierarchies within
+					home and work worlds. Those who sought adventure and excitement in the nocturnal
+					company of men, and &quot;made themselves up” for the occasion, risked
+					condemnation and punishment for following their socialization to its logical
+					conclusions. There are parallels between women’s use of cosmetics to challenge
+					existing order—parental or social—and the fan actively resisting and
+					transforming what she was supposed to absorb passively. </p>
 				<p>
-					<lb facs='#facs_44_r_2_1_tl_1' n='N001'/>FAN MAGS IN THE FORTIES
-				</p>
-				<p>
-					<lb facs='#facs_44_r_3_1_tl_1' n='N001'/>BY JANE GAINES
-				</p>
-				<p>
-					<lb facs='#facs_44_l_1' n='N001'/>The fan mags of the 1940s claimed to Tell All about the stars
-					<lb facs='#facs_44_l_2' n='N002'/>intimate lives, but their real subject was their readers’ intimate
-					<lb facs='#facs_44_l_3' n='N003'/>problems. They differed from the old scandal-hungry &quot;fanzines
-					<lb facs='#facs_44_l_4' n='N004'/>of the ’20s and ’30s, which had helped to lure audiences back
-					<lb facs='#facs_44_l_5' n='N005'/>into movie theatres when business fell off just before the Talk-
-					<lb facs='#facs_44_l_6' n='N006'/>ies. Around the mid-’30s, fan-mag gossip, in addition to motion
-					<lb facs='#facs_44_l_7' n='N007'/>pictures themselves, came under the surveillance of the Fed-
-					<lb facs='#facs_44_l_8' n='N008'/>eral Production Code. Hollywood studios kept close watch
-					<lb facs='#facs_44_l_9' n='N009'/>for potentially libelous or unfavorable stories by blacklisting
-					<lb facs='#facs_44_l_10' n='N010'/>writers through the Hays Office and checking copy before it
-					<lb facs='#facs_44_l_11' n='N011'/>went to print
-				</p>
-				<p>
-					<lb facs='#facs_44_l_12' n='N001'/>After 1935, when the major fan magazine publishers moved
-					<lb facs='#facs_44_l_13' n='N002'/>their offices from New York to Hollywood, stories became tame
-					<lb facs='#facs_44_l_14' n='N003'/>and preachy.“ In 1939, Glamour of Hollywood became Glamour
-					<lb facs='#facs_44_l_15' n='N004'/>and in 1944, Stardom became Seventeen.“ During the war years
-					<lb facs='#facs_44_l_16' n='N005'/>star gossip thus became a glitzy sheen over this new hybrid
-					<lb facs='#facs_44_l_17' n='N006'/>product—daughter of the romance-confession magazine anc
-					<lb facs='#facs_44_l_18' n='N007'/>the fashion-beauty guide. The largest-circulation fan magazines
-					<lb facs='#facs_44_l_19' n='N008'/>published by MacFadden, Fawcett, and Dell, were designed to
-				</p>
-				<p>
-					<lb facs='#facs_44_l_20' n='N001'/>&quot;discover” the working-class woman consumer and to deliver
-					<lb facs='#facs_44_l_21' n='N002'/>her to the advertisers. Because these magazine test vehicles re¬
-					<lb facs='#facs_44_l_22' n='N003'/>sponded rapidly to readers’ interests and went quickly in and
-					<lb facs='#facs_44_l_23' n='N004'/>out of print, they offer clues to patterns in working-class wom¬
-					<lb facs='#facs_44_l_24' n='N005'/>en’s consciousness, to the way class differences affected gen¬
-					<lb facs='#facs_44_l_25' n='N006'/>der differentiation and the way history further deflects social
-					<lb facs='#facs_44_l_26' n='N007'/>distinctions.
-				</p>
-				<p>
-					<lb facs='#facs_44_l_27' n='N001'/>Fan magazines during the war years used stars to lend credi¬
-					<lb facs='#facs_44_l_28' n='N002'/>bility to advertisers’ claims and to define &quot;respectability” for
-					<lb facs='#facs_44_l_29' n='N003'/>their readers. Why were Hollywood stars—synonymous with
-					<lb facs='#facs_44_l_30' n='N004'/>vulgarity and sex scandal during the ’20s and ’30s—suddenly
-					<lb facs='#facs_44_l_31' n='N005'/>representative of taste, breeding, and propriety? The archetypal
-					<lb facs='#facs_44_l_32' n='N006'/>star success story began with the small-town girl who lived above
-					<lb facs='#facs_44_l_33' n='N007'/>a dime store in a tiny but neat and clean apartment with a sin¬
-					<lb facs='#facs_44_l_34' n='N008'/>gle potted plant in a tin can on the fire escape. Her Hollywood
-					<lb facs='#facs_44_l_35' n='N009'/>initiation included the improvement of her grammar and dic¬
-					<lb facs='#facs_44_l_36' n='N010'/>tion. For working-class fans, becoming a star meant social mo¬
-					<lb facs='#facs_44_l_37' n='N011'/>bility. The fan magazines doted on women like Joan Crawford,
-					<lb facs='#facs_44_l_38' n='N012'/>who had so thoroughly &quot;bettered&quot; themselves.
-				</p>
-				<pb n='45'/>
-				<p>
-					<lb facs='#facs_45_l_1' n='N001'/>For publishers, the supreme function of fan magazines was
-					<lb facs='#facs_45_l_2' n='N002'/>to channel fantasy and envy into practical consumption. Once
-					<lb facs='#facs_45_l_3' n='N003'/>associated with a star, inexpensive bath soap and powder, for
-					<lb facs='#facs_45_l_4' n='N004'/>instance, were invested with an aura of wealth and luxury. The
-					<lb facs='#facs_45_l_5' n='N005'/>fan magazines upheld absolute social distinctions, as reflectec
-					<lb facs='#facs_45_l_6' n='N006'/>in consumption hierarchies—a fox fur was preferable to a bea¬
-					<lb facs='#facs_45_l_7' n='N007'/>ver coat. At the same time, the magazines despised social over¬
-					<lb facs='#facs_45_l_8' n='N008'/>reach and ostentation. To flatter the working-class reader, the
-					<lb facs='#facs_45_l_9' n='N009'/>stars had to be &quot;brought down&quot;; to encourage middle-class
-					<lb facs='#facs_45_l_10' n='N010'/>aspiratios had to be &quot;held up.” Often, the same star was de¬
-					<lb facs='#facs_45_l_11' n='N011'/>moted one month and elevated the next.
-				</p>
-				<p>
-					<lb facs='#facs_45_l' n='N001'/>During the war years, the monthly column written by &quot;Fear
-					<lb facs='#facs_45_l_27' n='N002'/>less&quot; in Photoplay-Movie-Mirror revealed that although the stars
-					<lb facs='#facs_45_l_28' n='N003'/>seemed to have everything, they were basically the same kind of
-					<lb facs='#facs_45_l_29' n='N004'/>people as their fans. Lana Turner, although she wore sables
-					<lb facs='#facs_45_l_30' n='N005'/>with a clinging white jersey to the premiere of Yank in the R.A.F.
-					<lb facs='#facs_45_l_31' n='N006'/>had rented the fur; Olivia de Haviland posed before an elegant
-					<lb facs='#facs_45_l_32' n='N007'/>house in a posh neighborhood because she actually lived in a
-					<lb facs='#facs_45_l_33' n='N008'/>more modest home. ° As if to reassure readers that their own
-					<lb facs='#facs_45_l_34' n='N009'/>tastes were not too cheap, their cultural preferences not too low-
-					<lb facs='#facs_45_l_35' n='N010'/>brow, the magazines criticized stars for cultivating interests in
-					<lb facs='#facs_45_l_36' n='N011'/>opera, painting, classical music, and literature. Betty Hutton
-					<lb facs='#facs_45_l_37' n='N012'/>whose best friend was her hairdresser, according to Modern
-					<lb facs='#facs_45_l_38' n='N013'/>Screen in August 1943, was quoted as saying that anything more
-					<lb facs='#facs_45_l_39' n='N014'/>than light reading gave her a headache.
-				</p>
-				<p>
-					<lb facs='#facs_45_l_40' n='N001'/>Sociologist have understood film stars as &quot;idols of consump
-				</p>
-				<p>
-					<lb facs='#facs_45_l_12' n='N001'/>tion,&quot; models for fashionable spending in a society that had evolved from a production
-					<lb facs='#facs_45_l_13' n='N002'/>to a consumption economy.* Yet in the fan magazines, consumption idolatry on the
-					<lb facs='#facs_45_l_14' n='N003'/>scale of swimming pools and limousines was discouraged. During the war years, the
-					<lb facs='#facs_45_l_15' n='N004'/>Hollywood poolside and nightclub life style was unpopular not only because luxury
-					<lb facs='#facs_45_l_16' n='N005'/>goods were unavailable, but also because extravagance was unpatriotic. Stars, incredi¬
-					<lb facs='#facs_45_l_17' n='N006'/>bly, were recast as models of practicality, constraint and thrift, &quot;smart shoppers” who
-					<lb facs='#facs_45_l_18' n='N007'/>&quot;knew good value.“ &quot;Fearless&quot; told readers in 1943 that Ann Sheridan would not in¬
-					<lb facs='#facs_45_l_19' n='N008'/>stall a swimming pool until she had paid off her mortgage, that she bought Victory
-					<lb facs='#facs_45_l_20' n='N009'/>Bonds with her egg money, and paid her taxes with proceeds from her walnut crop
-					<lb facs='#facs_45_l_21' n='N010'/>The message was, “Don’t wish for what you can’t afford, but do wish for something
-					<lb facs='#facs_45_l_22' n='N011'/>better than what you’ve got.
-					<lb facs='#facs_45_l_23' n='N012'/>If the wartime fan magazines preached caution and good sense in their
-				</p>
-				<p>
-					<lb facs='#facs_45_l_24' n='N001'/>advice columns and editorials, a glance through their other pages suggests
-					<lb facs='#facs_45_l_25' n='N002'/>a different message. Star studio glamour portraits—8 x 10&quot; glossies of ac¬
-					<lb facs='#facs_45_l_26' n='N003'/>tresses with glycerine-tipped lips—were alluring invitations to reverie and
-					<lb facs='#facs_45_l_41' n='N004'/>aspiration, even when reproduced on the cheap newsprint of the war years.
-					<lb facs='#facs_45_l_42' n='N005'/>Glamour—combining glitter and amour, the perfect amalgam of money and
-					<lb facs='#facs_45_l_43' n='N006'/>love—was absorbed into every topic of interest to women, so that the
-					<lb facs='#facs_45_r_4_1_tl_1' n='N007'/>most &quot;down-to-earth” advice about washing woolens and powdering
-					<lb facs='#facs_45_r_4_1_tl_2' n='N008'/>girdles became imbued with romantic possibilities
-				</p>
-				<p>
-					<lb facs='#facs_45_l_44' n='N001'/>Since the 40s, the mass circulation magazine beauty advice
-					<lb facs='#facs_45_l_45' n='N002'/>column has continued to make its contribution to continued op¬
-					<lb facs='#facs_45_l_46' n='N003'/>pression by imprisoning woman within and through her body
-					<lb facs='#facs_45_l_47' n='N004'/>It rationalizes and justifies painful and often impossible physi¬
-					<lb facs='#facs_45_l_48' n='N005'/>cal ideals; it cheers and admonishes women readers in their
-					<lb facs='#facs_45_l_49' n='N006'/>battle with biological givens. Most significantly, it never al¬
-					<lb facs='#facs_45_l_50' n='N007'/>lows a moment of doubt about the rules, immersing the
-					<lb facs='#facs_45_l_51' n='N008'/>reader in a reservoir of knowledge, so that beauty tricks
-					<lb facs='#facs_45_l_52' n='N009'/>and illusions would be necessary to fill out her social
-					<lb facs='#facs_45_l_53' n='N010'/>reality. In the war years, these columns alluded vaguely
-					<lb facs='#facs_45_l_54' n='N011'/>to the unfavorable consequences of failure to adhere
-					<lb facs='#facs_45_l_55' n='N012'/>to such beauty rigors as regular body hair removal,
-					<lb facs='#facs_45_l_56' n='N013'/>nightly hosiery washing, and walking with toes
-					<lb facs='#facs_45_l_57' n='N014'/>pointed, tummy tight. No more than a hint at the ill
-					<lb facs='#facs_45_l_58' n='N015'/>effects of beauty care delinquency was necessary. In¬
-					<lb facs='#facs_45_l_59' n='N016'/>consistent and oblivious to logic, &quot;beauty knowledge&apos;
-					<lb facs='#facs_45_l_60' n='N017'/>is self-referential, tautological, needlessly repetitive.
-					<lb facs='#facs_45_l_61' n='N018'/>(&quot;Leg loveliness&quot; equals &quot;glamour dividends,” so leg
-					<lb facs='#facs_45_l_62' n='N019'/>loveliness pays off.) Roland Barthes has noted that a
-					<lb facs='#facs_45_l_63' n='N020'/>tautology requires the edge of authority to succeed, which explains
-					<lb facs='#facs_45_l_64' n='N021'/>the success of parental discourse which answers &quot;why&quot; with
-					<lb facs='#facs_45_l_65' n='N022'/>&quot;because.&quot; The Photoplay column on leg loveliness (&quot;From Hem
-					<lb facs='#facs_45_l_66' n='N023'/>to Toes&quot;) acquires authority from Willys, the &quot;Hollywood Stocking
-					<lb facs='#facs_45_l_67' n='N024'/>King” who not only invented beige and suntone hosiery, but cre¬
-					<lb facs='#facs_45_l_68' n='N025'/>ated Ginger Rogers’ latex mesh dance stockings. Tautologically,
-					<lb facs='#facs_45_l_69' n='N026'/>&quot;because leg loveliness is his business, Willys knows the impor¬
-					<lb facs='#facs_45_l_70' n='N027'/>tance of well-groomed, pretty legs.&quot; The stars authorized the trivial
-					<lb facs='#facs_45_l_71' n='N028'/>and elevated the inconsequential: “An unpressed dress or an un¬
-					<lb facs='#facs_45_l_72' n='N029'/>even hemline can ruin the romantic career of the prettiest girl in
-					<lb facs='#facs_45_l_73' n='N030'/>town,&quot; warned Claudete Colbert.
-				</p>
-				<p>
-					<lb facs='#facs_45_l_74' n='N001'/>Beauty knowledge, dedicated to its own self-evidence, can be
-					<lb facs='#facs_45_l_75' n='N002'/>harnessed to more elevated concepts, so that in wartime, skin care
-					<lb facs='#facs_45_l_76' n='N003'/>and make-up ritual could become a patriotic duty. Along with such
-					<lb facs='#facs_45_l_77' n='N004'/>ordinary objects as rubber tires and canned goods, lipstick was
-					<lb facs='#facs_45_l_78' n='N005'/>elevated to a symbol of democracy and freedom. The fan maga¬
-					<lb facs='#facs_45_l_79' n='N006'/>zines linked lipstick with courage and emotional fortitude. A Tangee
-					<lb facs='#facs_45_l_80' n='N007'/>advertisement showed two women in overalls, one taking over the
-					<lb facs='#facs_45_l_81' n='N008'/>controls of an airplane; Lipstick, it said, is &quot;an instrument of per
-					<lb facs='#facs_45_l_82' n='N009'/>sonal morale that helps her conceal heartbreak or sorrow; gives
-					<lb facs='#facs_45_l_83' n='N010'/>her self-confidence when it’s badly needed...&quot; The image of glis¬
-					<lb facs='#facs_45_l_84' n='N011'/>tening lips, defying weather, sorrow, and drudgery helped to eroticize
-					<lb facs='#facs_45_l_85' n='N012'/>a bleak work situation with no men in sight. The combination of
-					<lb facs='#facs_45_l_86' n='N013'/>lipstick and overalls reassured women that they could step into
-					<lb facs='#facs_45_l_87' n='N014'/>&quot;men’s work&quot; without losing &quot;feminine attributes,&quot; and held at bay
-					<lb facs='#facs_45_l_88' n='N015'/>the fear that the new &quot;tough girls&quot; might be lesbians.
-				</p>
-				<pb n='46'/>
-				<p>
-					<lb facs='#facs_46_l_1' n='N001'/>Even if there’s one around, give it to the Scrap Drive
-					<lb facs='#facs_46_l_3' n='N002'/>than there’s a place for a gal who’s just willing te
-					<lb facs='#facs_46_l_4' n='N003'/>sit around and let other people win the war for her.
-					<lb facs='#facs_46_l_2' n='N004'/>because there’s no place for bustles in 1943 any more
-					<lb facs='#facs_46_l_5' n='N005'/>When you come right down to it—it&apos;s a question of
-					<lb facs='#facs_46_l_6' n='N006'/>WHAT you’re going to do.
-					<lb facs='#facs_46_l_7' n='N007'/>That&apos;s where Embry-Riddle—America’s largest, priv¬
-					<lb facs='#facs_46_l_8' n='N008'/>ate aviation school—comes in. Our Aviation Advisor
-					<lb facs='#facs_46_l_9' n='N009'/>to Women can help you along the road—either to the
-					<lb facs='#facs_46_l_10' n='N010'/>Services or Industry, a career or war time job. There
-					<lb facs='#facs_46_l_11' n='N011'/>are twenty-two Specialist courses to frain you for posi¬
-					<lb facs='#facs_46_l_12' n='N012'/>tions of responsibility. Set in the War Effort—but
-					<lb facs='#facs_46_l_13' n='N013'/>don&apos;t waste what YOU have to offer!
-				</p>
-				<p>
-					<lb facs='#facs_46_l_14' n='N001'/>But if lipstick was an emblem of high femininity, it was alsc
-					<lb facs='#facs_46_l_15' n='N002'/>a sign of low female sexuality. Some of the discrepancies be¬
-					<lb facs='#facs_46_l_16' n='N003'/>tween the symbolic function of lipstick in wartime, conventional
-					<lb facs='#facs_46_l_17' n='N004'/>attiudes towards make-up, and young women’s expressive use
-					<lb facs='#facs_46_l_18' n='N005'/>of cosmetics, are important illustrations of the struggle over
-					<lb facs='#facs_46_l_19' n='N006'/>meaning in sexually-charged social practices and symbology
-					<lb facs='#facs_46_l_20' n='N007'/>Katherine Archibald’s Wartime Shipyard, a sociological study
-					<lb facs='#facs_46_l_21' n='N008'/>of the Moore Dry Dock Company in Oakland, California, in 1942,
-					<lb facs='#facs_46_l_22' n='N009'/>brings together the themes of cosmetics and dress as they re¬
-					<lb facs='#facs_46_l_23' n='N010'/>late to economics, social class, and sexuality. Dress regulations
-					<lb facs='#facs_46_l_24' n='N011'/>for women in the yard were stricter than in the office, and women
-					<lb facs='#facs_46_l_25' n='N012'/>guards checked for jewelry and stray curls. The literal connec¬
-					<lb facs='#facs_46_l_26' n='N013'/>tion between dangerous sexual distraction and beauty devices
-					<lb facs='#facs_46_l_27' n='N014'/>was demonstrated by the case of the wife of a philandering
-					<lb facs='#facs_46_l_28' n='N015'/>shipyard official who, with handkerchief and nail polish remover,
-					<lb facs='#facs_46_l_29' n='N016'/>forced the young women work¬
-					<lb facs='#facs_46_l_30' n='N017'/>ing for him to remove their
-					<lb facs='#facs_46_l_31' n='N018'/>make-up. The &quot;vastly experi-
-					<lb facs='#facs_46_l_32' n='N019'/>mental young girls&quot; and &quot;giddy
-					<lb facs='#facs_46_l_33' n='N020'/>charmers” (as Archibald, then
-					<lb facs='#facs_46_l_34' n='N021'/>a student at Stanford, describes
-					<lb facs='#facs_46_l_35' n='N022'/>the women workers) delighted
-					<lb facs='#facs_46_l_36' n='N023'/>in taunting both the female
-					<lb facs='#facs_46_l_37' n='N024'/>guards and male workers by re¬
-					<lb facs='#facs_46_l_38' n='N025'/>vealing, beneath their work
-					<lb facs='#facs_46_l_39' n='N026'/>clothes, as much thigh or then
-					<lb facs='#facs_46_l_40' n='N027'/>taboo &quot;sweater” as possible.
-				</p>
-				<p>
-					<lb facs='#facs_46_l_41' n='N001'/>These conflicts reflect clash¬
-					<lb facs='#facs_46_l_42' n='N002'/>es between the make-shift po¬
-					<lb facs='#facs_46_l_43' n='N003'/>sition whereby women &quot;be-
-					<lb facs='#facs_46_l_44' n='N004'/>longed&quot; at work during the war
-					<lb facs='#facs_46_l_45' n='N005'/>and traditional wisdom about
-					<lb facs='#facs_46_l_46' n='N006'/>&quot;woman’s place in the home.
-					<lb facs='#facs_46_l_47' n='N007'/>Just as unstable was the na¬
-					<lb facs='#facs_46_l_48' n='N008'/>tional version of correct female
-					<lb facs='#facs_46_l_49' n='N009'/>sexual behavior. For the dura¬
-					<lb facs='#facs_46_l_50' n='N010'/>tion, prostitution was rede¬
-					<lb facs='#facs_46_l_51' n='N011'/>fined, as women were prose¬
-					<lb facs='#facs_46_l_52' n='N012'/>cuted for sexual activity which
-					<lb facs='#facs_46_l_53' n='N013'/>did not involve emotional sin¬
-					<lb facs='#facs_46_l_54' n='N014'/>cerity.1° Archibald interpret:
-				</p>
-				<p>
-					<lb facs='#facs_46_l' n='N001'/>differences in the graffiti on the walls of
-					<lb facs='#facs_46_l_55' n='N002'/>the men’s and women’s lavatories at
-					<lb facs='#facs_46_l_56' n='N003'/>Moore Dry Dock as evidence that the
-					<lb facs='#facs_46_l_57' n='N004'/>women were far more &quot;preoccupied
-					<lb facs='#facs_46_l_58' n='N005'/>with sex than the men. On a na¬
-					<lb facs='#facs_46_l_59' n='N006'/>tional scale, this kind of observa¬
-					<lb facs='#facs_46_l_60' n='N007'/>tion accelerated into concern
-					<lb facs='#facs_46_l_61' n='N008'/>about female &quot;sex delinquency.
-					<lb facs='#facs_46_l_62' n='N009'/>These fears centered on young
-					<lb facs='#facs_46_l_63' n='N010'/>women who either ran away
-					<lb facs='#facs_46_l_64' n='N011'/>from home or were without re¬
-					<lb facs='#facs_46_l_65' n='N012'/>spectable middle-class back¬
-					<lb facs='#facs_46_l_66' n='N013'/>grounds. Make-up could signify
-					<lb facs='#facs_46_l_67' n='N014'/>sexual laxity to community moral
-					<lb facs='#facs_46_l_68' n='N015'/>arbiters, while images of prettified
-					<lb facs='#facs_46_l_69' n='N016'/>factory workers could symbolize wom¬
-					<lb facs='#facs_46_l_70' n='N017'/>en’s sacrifice to the nation. Thus young
-					<lb facs='#facs_46_l_71' n='N018'/>women’s experimentation with rouge and eye
-					<lb facs='#facs_46_l_72' n='N019'/>make-up could be either a declaration of recalci¬
-					<lb facs='#facs_46_l_73' n='N020'/>trance or proof of conformity. It could be read either as a
-					<lb facs='#facs_46_l_74' n='N021'/>result of financial independence or as a general defiance of
-					<lb facs='#facs_46_l_75' n='N022'/>authority. But as a plea for social acceptance (by men), it con¬
-					<lb facs='#facs_46_l_76' n='N023'/>tained an unfortunate irony.
-				</p>
-				<p>
-					<lb facs='#facs_46_l_120' n='N001'/>For young working-class women, such sexual expression was
-					<lb facs='#facs_46_l_121' n='N002'/>more significant than it could possibly have been for middle¬
-					<lb facs='#facs_46_l_122' n='N003'/>class women, whose wartime mobility and financial opportu¬
-					<lb facs='#facs_46_l_123' n='N004'/>nity did not offer, relatively, such drastic changes in her
-					<lb facs='#facs_46_l_124' n='N005'/>dependence upon either home or husband.“ Outbursts of sex¬
-					<lb facs='#facs_46_l_125' n='N006'/>ual and financial freedom among working-class women were a
-					<lb facs='#facs_46_l_126' n='N007'/>greater threat to hierarchies within home and work worlds. Those
-					<lb facs='#facs_46_l_127' n='N008'/>who sought adventure and excitement in the nocturnal com¬
-					<lb facs='#facs_46_l_128' n='N009'/>pany of men, and &quot;made themselves up” for the occasion, risked
-					<lb facs='#facs_46_l_129' n='N010'/>condemnation and punishment for following their socialization
-					<lb facs='#facs_46_l_130' n='N011'/>to its logical conclusions. There are parallels between women’s
-					<lb facs='#facs_46_l_131' n='N012'/>use of cosmetics to challenge existing order—parental or so¬
-					<lb facs='#facs_46_l_132' n='N013'/>cial —and the fan actively resisting and transforming what she
-					<lb facs='#facs_46_l_133' n='N014'/>was supposed to absorb passively.
-				</p>
-				<p>
-					<lb facs='#facs_46_l_134' n='N001'/>Antonio Gramsci’s concept of &quot;common sense” as a way of
-					<lb facs='#facs_46_l_135' n='N002'/>theorizing the condensed form of ideology at the level of every¬
-					<lb facs='#facs_46_l_136' n='N003'/>day life illuminates the way borrowed, then internalized notions
-					<lb facs='#facs_46_l_137' n='N004'/>of beauty and love became in¬
-					<lb facs='#facs_46_l_138' n='N005'/>tegrated into popular wisdom
-					<lb facs='#facs_46_l_139' n='N006'/>through star gossip and beauty
-					<lb facs='#facs_46_l_140' n='N007'/>advice.12 Many women may
-					<lb facs='#facs_46_l_141' n='N008'/>have related to fan magazines
-					<lb facs='#facs_46_l_142' n='N009'/>with scepticism, taking what
-					<lb facs='#facs_46_l_143' n='N010'/>they read with a grain of salt,
-					<lb facs='#facs_46_l_144' n='N011'/>even mocking the proscriptive
-					<lb facs='#facs_46_l_145' n='N012'/>advice and vapid gossip as a
-					<lb facs='#facs_46_l_146' n='N013'/>form of entertainment in itself.
-					<lb facs='#facs_46_l_147' n='N014'/>&quot;Common sense&quot; contains in¬
-					<lb facs='#facs_46_l_148' n='N015'/>formation gleaned from esti¬
-					<lb facs='#facs_46_l_149' n='N016'/>mating the distance between
-					<lb facs='#facs_46_l_150' n='N017'/>imposed versions of reality and
-					<lb facs='#facs_46_l_151' n='N018'/>personal counter experience.
-					<lb facs='#facs_46_l_152' n='N019'/>Richard Dyer has described
-					<lb facs='#facs_46_l_153' n='N020'/>common sense as &quot;blinkered&apos;
-					<lb facs='#facs_46_l_154' n='N021'/>in its inability to see beyond
-					<lb facs='#facs_46_l_155' n='N022'/>or above the immediate, but
-					<lb facs='#facs_46_l_156' n='N023'/>&quot;wise&quot; in its negotiation of the
-					<lb facs='#facs_46_l_157' n='N024'/>immediate business of living.
-					<lb facs='#facs_46_l_158' n='N025'/>Common sense, for all its in¬
-					<lb facs='#facs_46_l_159' n='N026'/>coherence, its undigested tru¬
-					<lb facs='#facs_46_l_160' n='N027'/>isms, remedies, and bromides,
-					<lb facs='#facs_46_l_161' n='N028'/>is grounded in the hard neces¬
-					<lb facs='#facs_46_l_162' n='N029'/>sities of daily life. Although
-				</p>
-				<pb n='47'/>
-				<p>
-					<lb facs='#facs_47_l' n='N001'/>Indirectly yes! &quot;Victory Volunteers&quot; are as
-					<lb facs='#facs_47_l_1' n='N002'/>typically California as the slacks made by this high
-					<lb facs='#facs_47_l_2' n='N003'/>fashion sportswear house. Designed with the 
-					<lb facs='#facs_47_l_3' n='N004'/>same originality, tailored with the same care. As
-					<lb facs='#facs_47_l_4' n='N005'/>for safety features -- they&apos;re California
-					<lb facs='#facs_47_l_5' n='N006'/>industry-tested not a stone&apos;s throw from 
-					<lb facs='#facs_47_l_6' n='N007'/>the designing rooms (California distance, of
-					<lb facs='#facs_47_l_7' n='N008'/>course) at Lockheed, Douglas, North-
-					<lb facs='#facs_47_l_8' n='N009'/>American, Vega, Vultee.
-					<lb facs='#facs_47_l_9' n='N010'/>Sketched: &quot;The New Victorall&quot;
-					<lb facs='#facs_47_l_10' n='N011'/>At leading stores. Or write to
-				</p>
-				<p>
-					<lb facs='#facs_47_l_11' n='N001'/>women turned to fan magazines for information as well as di¬
-					<lb facs='#facs_47_l_12' n='N002'/>version, readers’ letters to the editors offer a crude indicator of
-					<lb facs='#facs_47_l_13' n='N003'/>opposition to versions of the world that might not match up
-					<lb facs='#facs_47_l_14' n='N004'/>with readers’ experiences. For instance, one woman wrote to
-					<lb facs='#facs_47_l_15' n='N005'/>Photoplay-Movie-Mirror that she was tired of the sympathetic,
-					<lb facs='#facs_47_l_16' n='N006'/>pitying portrayals of Lana Turner. She was particularly offended
-					<lb facs='#facs_47_l_17' n='N007'/>by the description of Lana as &quot;the lonely, almost friendless beauty,
-					<lb facs='#facs_47_l_18' n='N008'/>so young, so talented, who walked the path of a strange fate.&quot;
-					<lb facs='#facs_47_l_19' n='N009'/>Turner, whose multiple marriages (two to the same man) were
-					<lb facs='#facs_47_l_20' n='N010'/>difficult for the magazine to rationalize, was not talented, ar¬
-					<lb facs='#facs_47_l_21' n='N011'/>gued the reader, and &quot;If Lana Turner is lonely, Hitler is
-					<lb facs='#facs_47_l_22' n='N012'/>kind-hearted.&quot;1
-				</p>
-				<p>
-					<lb facs='#facs_47_l_23' n='N001'/>Such isolated outbursts did not cohere into a challenge to
-					<lb facs='#facs_47_l_24' n='N002'/>the fan mag philosophy nor even pose a real irritant. They were
-					<lb facs='#facs_47_l_25' n='N003'/>easily integrated into the magazines&apos; portrait of their reader¬
-					<lb facs='#facs_47_l_26' n='N004'/>ship as &quot;frank,&quot; “honest,&quot; and even &quot;outspoken.&quot; Nevertheless,
-					<lb facs='#facs_47_l_27' n='N005'/>women’s mass circulation magazines raised issues of social
-					<lb facs='#facs_47_l_28' n='N006'/>adjustment in the ’40s in the absence of other vehicles for deal¬
-					<lb facs='#facs_47_l_29' n='N007'/>ing with the problems of young women coming to maturity. Sto¬
-					<lb facs='#facs_47_l_30' n='N008'/>ries about the stars were adapted to offer solutions to perplexing
-				</p>
-				<p>
-					<lb facs='#facs_47_l_31' n='N001'/>personal problems. For instance, “What Kind of a Woman Will
-					<lb facs='#facs_47_l_32' n='N002'/>Your Man Come Home To?&quot; in Photoplay, November, 1944, pur¬
-					<lb facs='#facs_47_l_33' n='N003'/>ports to be about Ann Sothern’s wartime marriage, but actually
-					<lb facs='#facs_47_l_34' n='N004'/>addresses marital adjustment to pregnancy. &quot;How I Keep My
-					<lb facs='#facs_47_l_35' n='N005'/>Husband from Getting Jealous,&quot; Silver Screen, April 1942, is
-					<lb facs='#facs_47_l_36' n='N006'/>about the pros and cons of marrying an older man as much as
-					<lb facs='#facs_47_l_37' n='N007'/>it is gossip about Rita Hayworth’s first marriage, at seventeen,
-					<lb facs='#facs_47_l_38' n='N008'/>to a thirty-four-year-old man. An article by Veronica Lake in
-					<lb facs='#facs_47_l_39' n='N009'/>Photoplay, January 1943— &quot;Are You a Woman Without a Man
-					<lb facs='#facs_47_l_40' n='N010'/>&quot;—deals with the sexual behavior issue popularly known as
-					<lb facs='#facs_47_l_41' n='N011'/>&quot;wartime morality.&quot;1
-				</p>
-				<p>
-					<lb facs='#facs_47_l_42' n='N001'/>For young women, then, the war introduced a wider range of
-					<lb facs='#facs_47_l_43' n='N002'/>possibilities, which in tumn introduced new dilemmas, such as
-					<lb facs='#facs_47_l_44' n='N003'/>whether or not to marry a man in the service, with whom a
-					<lb facs='#facs_47_l_45' n='N004'/>young woman should associate while so many men were away,
-					<lb facs='#facs_47_l_46' n='N005'/>and what &quot;favors” she should allow men. The fan magazines
-					<lb facs='#facs_47_l_47' n='N006'/>contradicted themselves in their advice, first recommending war¬
-					<lb facs='#facs_47_l_48' n='N007'/>time marriage, then warning against it; scolding young women
-					<lb facs='#facs_47_l_49' n='N008'/>for infidelities, while encouraging them to date others if the
-					<lb facs='#facs_47_l_50' n='N009'/>men they loved were overseas. Veronica Lake rationalized this
-				</p>
-				<p>
-					<lb facs='#facs_47_l_51' n='N001'/>practice as a kind of
-					<lb facs='#facs_47_l_52' n='N002'/>&quot;emergency measure
-					<lb facs='#facs_47_l_53' n='N003'/>which should be practiced be¬
-					<lb facs='#facs_47_l_54' n='N004'/>cause &quot;a life without masculine society
-					<lb facs='#facs_47_l_55' n='N005'/>is abnormal.&quot; Fan magazines allow the reader to assume two
-					<lb facs='#facs_47_l_56' n='N006'/>sexual identities—one the safe position of judging the star&apos;s
-					<lb facs='#facs_47_l_57' n='N007'/>scandalous life, the other the dangerous position of admitting
-					<lb facs='#facs_47_l_58' n='N008'/>vicarious desires. Beyond such glimpses of the stars’ intimate
-					<lb facs='#facs_47_l_59' n='N009'/>lives, fan magazines also offered some information to the sexu¬
-					<lb facs='#facs_47_l_60' n='N010'/>ally underinformed. And women were still curious about sexu¬
-					<lb facs='#facs_47_l_61' n='N011'/>ality after years of married life. The suggestion that women might
-					<lb facs='#facs_47_l_62' n='N012'/>find company with each other was conspicuously missing from
-					<lb facs='#facs_47_l_63' n='N013'/>the fan magazines.
-				</p>
-				<p>
-					<lb facs='#facs_47_l_85' n='N001'/>Current feminist work on romance fiction such as that being
-					<lb facs='#facs_47_l_86' n='N002'/>done by Janice Radway and Alison Light,1° emphasizes the ed¬
-					<lb facs='#facs_47_l_87' n='N003'/>ucative function of romance fiction which keeps women hope¬
-					<lb facs='#facs_47_l_88' n='N004'/>ful and expectant within their often emotionally unfulfilling roles
-					<lb facs='#facs_47_l_89' n='N005'/>as wives and mothers. Light’s reading of Daphne DuMaurier&apos;s
-					<lb facs='#facs_47_l_90' n='N006'/>Rebecca explains the co-existence of sexual allure and pragma¬
-					<lb facs='#facs_47_l_91' n='N007'/>tism in the ’40s fan magazines. She notes that the largest audi¬
-					<lb facs='#facs_47_l_92' n='N008'/>ence for romance fiction is middle-aged housewives and teenaged
-					<lb facs='#facs_47_l_93' n='N009'/>women. McFadden Publishing Company’s postwar studies of
-					<lb facs='#facs_47_l_94' n='N010'/>mass circulation magazine customers showed a high propor¬
-					<lb facs='#facs_47_l_95' n='N011'/>tion of readers in the same groups. 1 Light suggests that these
-					<lb facs='#facs_47_l_96' n='N012'/>two stages of life are &quot;moments” at which the impossibility of
-					<lb facs='#facs_47_l_97' n='N013'/>being &quot;successfully feminine” is most dramatically felt. Romance
-					<lb facs='#facs_47_l_98' n='N014'/>fiction offers a way to maintain &quot;a space for psychic pleasures,
-					<lb facs='#facs_47_l_99' n='N015'/>a kind of &quot;literary anorexia...a protest against and a restate¬
-					<lb facs='#facs_47_l_100' n='N016'/>ment of oppression.
-				</p>
-				<p>
-					<lb facs='#facs_47_l_101' n='N001'/>Of course the fan mags never yielded up the real lives of the
-					<lb facs='#facs_47_l_102' n='N002'/>stars. Although full of miscellaneous detail (wedding snapshots
-					<lb facs='#facs_47_l_103' n='N003'/>beauty secrets, confessions straight from the star’s mouth as
-					<lb facs='#facs_47_l_104' n='N004'/>told to the only truly sympathetic ear—the fan mag reporter),
-					<lb facs='#facs_47_l_105' n='N005'/>they were mainly residue of star life. The candid photograph of
-				</p>
-				<pb n='48'/>
-				<p>
-					<lb facs='#facs_48_l' n='N001'/>an estranged couple, snapped &quot;just a few short weeks before at
-					<lb facs='#facs_48_l_1' n='N002'/>the Trocadero,” revealed as much, or as little, about the sexual
-					<lb facs='#facs_48_l_2' n='N003'/>underside of Hollywood as even the most faithful reader would
-					<lb facs='#facs_48_l_3' n='N004'/>ever know. Similarly, the study of these magazines leaves the
-					<lb facs='#facs_48_l_4' n='N005'/>feminist critic with some nagging questions. Our most sophis¬
-					<lb facs='#facs_48_l_5' n='N006'/>ticated tools of structural analysis can’t tell us who read far
-					<lb facs='#facs_48_l_6' n='N007'/>magazines, in what spirit or mood, or in what social context
-					<lb facs='#facs_48_l_7' n='N008'/>Were they read on magazine stands next to bus stops, in wait¬
-					<lb facs='#facs_48_l_8' n='N009'/>ing rooms, or under the dryers at beauty parlors? Or maybe
-					<lb facs='#facs_48_l_9' n='N010'/>they were never read at all, but purchased only for images, to
-					<lb facs='#facs_48_l_10' n='N011'/>cut up, tack on walls, or paste into scrapbooks.
-				</p>
-				<p>
-					<lb facs='#facs_48_l_11' n='N001'/>What I have done so far—hypothesize the correspondences
-					<lb facs='#facs_48_l_12' n='N002'/>between beauty, romance, and common sense—seems relatively
-					<lb facs='#facs_48_l_13' n='N003'/>easy. It makes it possible to suggest that common sense is a
-					<lb facs='#facs_48_l_14' n='N004'/>source from which individuals draw, but that they can recom¬
-					<lb facs='#facs_48_l_15' n='N005'/>bine or recontextualize existing sign-vehicles in order to create
-					<lb facs='#facs_48_l_16' n='N006'/>new meanings. Or consumers may use commodities in ways
-					<lb facs='#facs_48_l_17' n='N007'/>that alter or subvert their intended use-values—like using lip¬
-					<lb facs='#facs_48_l_18' n='N008'/>stick to write on mirrors. Somewhat more difficult is the task of
-					<lb facs='#facs_48_l_19' n='N009'/>locating the disjunction between dominant versions of reality
-					<lb facs='#facs_48_l_20' n='N010'/>and women’s experiences of how things really come down. Terry
-					<lb facs='#facs_48_l_21' n='N011'/>Lovell attributes this mismatch to a safe space within and in
-					<lb facs='#facs_48_l_22' n='N012'/>spite of the dominant ideology: social relations are lived within
-					<lb facs='#facs_48_l_23' n='N013'/>the confines of the dominant, but they are also lived in a con¬
-				</p>
-				<p>
-					<lb facs='#facs_48_r_3_1_tl_1' n='N001'/>text of &quot;good sense.&quot; They exist, she says, in &quot;contradictory and
-					<lb facs='#facs_48_r_3_1_tl_2' n='N002'/>sometimes incoherent ways which escape the categories of the
-					<lb facs='#facs_48_r_3_1_tl_3' n='N003'/>dominant ideology. They are expressed in the wordless recog¬
-					<lb facs='#facs_48_r_3_1_tl_4' n='N004'/>nition of a glance or laugh exchanged, for instance, between
-					<lb facs='#facs_48_r_3_1_tl_5' n='N005'/>women in occasional acknowledgement of the disparity be¬
-					<lb facs='#facs_48_r_3_1_tl_6' n='N006'/>tween ideology and experience.&quot;1
-				</p>
-				<p>
-					<lb facs='#facs_48_r_4_1_tl_1' n='N001'/>Murphy McHenry, &quot;Dishing That Fan Mag Guff,&quot; Variety, 24 September,
-					<lb facs='#facs_48_r_4_1_tl_2' n='N002'/>1936, p. 51.
-					<lb facs='#facs_48_r_4_1_tl_3' n='N003'/>“Association of National Advertisers, Magazine Circulation Analysis,
-					<lb facs='#facs_48_r_4_1_tl_4' n='N004'/>1937-48 (New York: 1949).
-					<lb facs='#facs_48_r_4_1_tl_5' n='N005'/>*Photoplay-Movie-Mirror 21, No. 1 (June, 1942), p. 77.
-					<lb facs='#facs_48_r_4_1_tl_6' n='N006'/>*Leo Lowenthal, “The Triumph of Mass Idols,” in Literature, Popular
-					<lb facs='#facs_48_r_4_1_tl_7' n='N007'/>Culture and Society (Englewood Cliffs, N.J.: Prentice-Hall, 1961),
-					<lb facs='#facs_48_r_4_1_tl_8' n='N008'/>pp. 109-140.
-					<lb facs='#facs_48_r_4_1_tl_9' n='N009'/>Roland Barthes, Mythologies, trans. Annette Lavers (Paris, 1957;
-					<lb facs='#facs_48_r_4_1_tl_10' n='N010'/>New York: Hill and Wang, 1972), pp. 152-153.
-					<lb facs='#facs_48_r_4_1_tl_11' n='N011'/>°Photoplay-Movie-Mirror, September, 1943, p. 40.
-					<lb facs='#facs_48_r_4_1_tl_12' n='N012'/>Photoplay-Movie-Mirror, September, 1943, p. 79.
-					<lb facs='#facs_48_r_4_1_tl_13' n='N013'/>In Public Journal (New York: Viking, 1945), pp. 19-21, Max Lerner&apos;s
-					<lb facs='#facs_48_r_4_1_tl_14' n='N014'/>description of the &quot;New Amazons” coming out of the factories hints at this
-					<lb facs='#facs_48_r_4_1_tl_15' n='N015'/>phobia. For more on how the overalls culture provided a &quot;cover” for
-					<lb facs='#facs_48_r_4_1_tl_16' n='N016'/>lesbians during the war, see Alan Bérubé, &quot;Marching to a Different
-					<lb facs='#facs_48_r_4_1_tl_17' n='N017'/>Drummer: Lesbians and Gay GIs in World War II,” in eds. Ann Snitow,
-					<lb facs='#facs_48_r_4_1_tl_18' n='N018'/>Christine Stansell, and Sharon Thompson, Powers of Desire (New York:
-					<lb facs='#facs_48_r_4_1_tl_19' n='N019'/>Monthly Review Press, 1983), p. 89.
-					<lb facs='#facs_48_r_4_1_tl_20' n='N020'/>»Katherine Archibald, Wartime Shipyard (Berkeley and Los Angeles:
-					<lb facs='#facs_48_r_4_1_tl_21' n='N021'/>University of California Press, 1947), pp. 22, 32.
-					<lb facs='#facs_48_r_4_1_tl_22' n='N022'/>&quot;Karen Anderson. Wartime Women (Westport, Conn.: Greenwood
-					<lb facs='#facs_48_r_4_1_tl_23' n='N023'/>Press, 1981), p. 104
-					<lb facs='#facs_48_r_4_1_tl_24' n='N024'/>&quot;In &quot;Working-Class Women and Recruitment Propaganda during
-					<lb facs='#facs_48_r_4_1_tl_25' n='N025'/>World War II: Class Differences in the Portrayal of War Work,&quot; (Signs
-					<lb facs='#facs_48_r_4_1_tl_26' n='N026'/>8, No. 4, 1983: 672-687), Maureen Honey has shown in her compari¬
-					<lb facs='#facs_48_r_4_1_tl_27' n='N027'/>son of fiction in the Saturday Evening Post and True Story that the
-					<lb facs='#facs_48_r_4_1_tl_28' n='N028'/>working-class confession magazine consistently steered around
-					<lb facs='#facs_48_r_4_1_tl_29' n='N029'/>portrayals of women as equal to their male co-workers. In the
-					<lb facs='#facs_48_r_4_1_tl_30' n='N030'/>Saturday Evening Post fiction, however, middle-class women war
-					<lb facs='#facs_48_r_4_1_tl_31' n='N031'/>workers triumphed as leaders in the defense effort. In these leader
-					<lb facs='#facs_48_r_4_1_tl_32' n='N032'/>ship roles the middle-class women were often superior to working-
-					<lb facs='#facs_48_r_4_1_tl_33' n='N033'/>class males.
-				</p>
+					<persName>Antonio Gramsci</persName>’s concept of &quot;common sense” as a way
+					of theorizing the condensed form of ideology at the level of everyday life
+					illuminates the way borrowed, then internalized notions of beauty and love
+					became integrated into popular wisdom through star gossip and beauty advice.12*
+					Many women may have related to fan magazines with scepticism, taking what they
+					read with a grain of salt, even mocking the proscriptive advice and vapid gossip
+					as a form of entertainment in itself. &quot;Common sense&quot; contains
+					information gleaned from estimating the distance between imposed versions of
+					reality and personal counter experience. <persName>Richard Dyer</persName> has
+					described common sense as &quot;blinkered&apos; in its inability to see beyond
+					or above the immediate, but &quot;wise&quot; in its negotiation of the immediate
+					business of living.13* Common sense, for all its incoherence, its undigested
+					truisms, remedies, and bromides, is grounded in the hard necessities of daily
+					life. Although </p>
+				<pb n="47"/>
+				<p> Indirectly yes! &quot;Victory Volunteers&quot; are as typically
+						<placeName>California</placeName> as the slacks made by this high fashion
+					sportswear house. Designed with the same originality, tailored with the same
+					care. As for safety features -- they&apos;re California industry-tested not a
+					stone&apos;s throw from the designing rooms (California distance, of course) at
+					Lockheed, Douglas, North American, Vega, Vultee. Sketched: &quot;The New
+					Victorall&quot; At leading stores. Or write to HOLLYWOOD PREMIERE 1240 S. Main
+					Street, Los Angeles, California. </p>
+				<p> women turned to fan magazines for information as well as diversion, readers’
+					letters to the editors offer a crude indicator of opposition to versions of the
+					world that might not match up with readers’ experiences. For instance, one woman
+					wrote to <title>Photoplay-Movie-Mirror</title> that she was tired of the
+					sympathetic, pitying portrayals of Lana Turner. She was particularly offended by
+					the description of Lana as &quot;the lonely, almost friendless beauty, so young,
+					so talented, who walked the path of a strange fate.&quot; Turner, whose multiple
+					marriages (two to the same man) were difficult for the magazine to rationalize,
+					was not talented, argued the reader, and &quot;If Lana Turner is lonely, Hitler
+					is kind-hearted.&quot;14* </p>
+				<p> Such isolated outbursts did not cohere into a challenge to the fan mag
+					philosophy nor even pose a real irritant. They were easily integrated into the
+					magazines&apos; portrait of their readership as &quot;frank,&quot;
+					“honest,&quot; and even &quot;outspoken.&quot; Nevertheless, women’s mass
+					circulation magazines raised issues of social adjustment in the ’40s in the
+					absence of other vehicles for dealing with the problems of young women coming to
+					maturity. Stories about the stars were adapted to offer solutions to perplexing </p>
+				<p> personal problems. For instance, “What Kind of a Woman Will Your Man Come Home
+					To?&quot; in <title>Photoplay</title>, <date>November, 1944</date>, purports to
+					be about <persName>Ann Sothern</persName>’s wartime marriage, but actually
+					addresses marital adjustment to pregnancy. &quot;How I Keep My Husband from
+					Getting Jealous,&quot; <title>Silver Screen</title>, <date>April 1942</date>, is
+					about the pros and cons of marrying an older man as much as it is gossip about
+						<persName>Rita Hayworth</persName>’s first marriage, at seventeen, to a
+					thirty-four-year-old man. An article by <persName>Veronica Lake</persName> in
+						<title>Photoplay</title>, <date>January 1943</date>— &quot;Are You a Woman
+					Without a Man &quot;—deals with the sexual behavior issue popularly known as
+					&quot;wartime morality.&quot;15* </p>
+				<p> For young women, then, the war introduced a wider range of possibilities, which
+					in turn introduced new dilemmas, such as whether or not to marry a man in the
+					service, with whom a young woman should associate while so many men were away,
+					and what &quot;favors” she should allow men. The fan magazines contradicted
+					themselves in their advice, first recommending wartime marriage, then warning
+					against it; scolding young women for infidelities, while encouraging them to
+					date others if the men they loved were overseas. Veronica Lake rationalized this </p>
+				<p> practice as a kind of &quot;emergency measure" which should be practiced because
+					&quot;a life without masculine society is abnormal.&quot; Fan magazines allow
+					the reader to assume two sexual identities—one the safe position of judging the
+					star&apos;s scandalous life, the other the dangerous position of admitting
+					vicarious desires. Beyond such glimpses of the stars’ intimate lives, fan
+					magazines also offered some information to the sexually underinformed. And women
+					were still curious about sexuality after years of married life. The suggestion
+					that women might find company with each other was conspicuously missing from the
+					fan magazines. </p>
+				<p> Current feminist work on romance fiction such as that being done by
+						<persName>Janice Radway</persName> and <persName>Alison Light</persName>,16*
+					emphasizes the educative function of romance fiction which keeps women hopeful
+					and expectant within their often emotionally unfulfilling roles as wives and
+					mothers. Light’s reading of <persName>Daphne DuMaurier</persName>&apos;s
+						<title>Rebecca</title> explains the co-existence of sexual allure and
+					pragmatism in the ’40s fan magazines. She notes that the largest audience for
+					romance fiction is middle-aged housewives and teenaged women. <orgName>McFadden
+						Publishing Company</orgName>’s postwar studies of mass circulation magazine
+					customers showed a high proportion of readers in the same groups.17* Light
+					suggests that these two stages of life are &quot;moments” at which the
+					impossibility of being &quot;successfully feminine” is most dramatically felt.
+					Romance fiction offers a way to maintain &quot;a space for psychic pleasures, a
+					kind of &quot;literary anorexia...a protest against and a restatement of
+					oppression. </p>
+				<p> Of course the fan mags never yielded up the real lives of the stars. Although
+					full of miscellaneous detail (wedding snapshots, beauty secrets, confessions
+					straight from the star’s mouth as told to the only truly sympathetic ear—the fan
+					mag reporter), they were mainly residue of star life. The candid photograph of </p>
+				<pb n="48"/>
+				<p> an estranged couple, snapped &quot;just a few short weeks before at the
+						<placeName>Trocadero</placeName>,” revealed as much, or as little, about the
+					sexual underside of Hollywood as even the most faithful reader would ever know.
+					Similarly, the study of these magazines leaves the feminist critic with some
+					nagging questions. Our most sophisticated tools of structural analysis can’t
+					tell us who read fan magazines, in what spirit or mood, or in what social
+					context Were they read on magazine stands next to bus stops, in waiting rooms,
+					or under the dryers at beauty parlors? Or maybe they were never read at all, but
+					purchased only for images, to cut up, tack on walls, or paste into scrapbooks. </p>
+				<p> What I have done so far—hypothesize the correspondences between beauty, romance,
+					and common sense—seems relatively easy. It makes it possible to suggest that
+					common sense is a source from which individuals draw, but that they can
+					recombine or recontextualize existing sign-vehicles in order to create new
+					meanings. Or consumers may use commodities in ways that alter or subvert their
+					intended use-values—like using lipstick to write on mirrors. Somewhat more
+					difficult is the task of locating the disjunction between dominant versions of
+					reality and women’s experiences of how things really come down. <persName>Terry
+						Lovell</persName> attributes this mismatch to a safe space within and in
+					spite of the dominant ideology: social relations are lived within the confines
+					of the dominant, but they are also lived in a context </p>
+				<p> of &quot;good sense.&quot; They exist, she says, in &quot;contradictory and
+					sometimes incoherent ways which escape the categories of the dominant ideology.
+					They are expressed in the wordless recognition of a glance or laugh exchanged,
+					for instance, between women in occasional acknowledgement of the disparity
+					between ideology and experience.&quot;18* </p>
 			</div>
 		</body>
+		<back>
+			<listBibl>
+				<bibl>1 <persName>Murphy McHenry</persName>, &quot;<title level="a">Dishing That Fan
+						Mag Guff</title>,&quot; <title level="j">Variety</title>, <date>24
+						September, 1936</date>, p. 51.</bibl>
+				<bibl>2 Association of National Advertisers, <title level="m">Magazine Circulation
+						Analysis, 1937-48</title> (New York: 1949).</bibl>
+				<bibl>3 <title level="j">Photoplay-Movie-Mirror</title> 21, No. 1 (June, 1942), p.
+					77.</bibl>
+				<bibl>4 <persName>Leo Lowenthal</persName>,<title level="a"> “The Triumph of Mass
+						Idols,”</title> in <title level="m">Literature, Popular Culture and
+						Society</title> (Englewood Cliffs, N.J.: Prentice-Hall, 1961), pp.
+					109-140.</bibl>
+				<bibl>5 <persName>Roland Barthes</persName>, <title level="m">Mythologies</title>,
+					trans. <persName>Annette Lavers</persName> (Paris, 1957; New York: Hill and
+					Wang, 1972), pp. 152-153.</bibl>
+				<bibl>6 <title level="j">Photoplay-Movie-Mirror</title>, September, 1943, p.
+					40.</bibl>
+				<bibl>7 <title level="j">Photoplay-Movie-Mirror</title>, September, 1943>, p.
+					79.</bibl>
+				<bibl>8 In <title level="j">Public Journal</title> (New York: Viking, 1945), pp.
+					19-21, <persName>Max Lerner</persName>&apos;s description of the &quot;New
+					Amazons” coming out of the factories hints at this phobia. For more on how the
+					overalls culture provided a &quot;cover” for lesbians during the war, see
+						<persName>Alan Bérubé</persName>, <title level="a">&quot;Marching to a
+						Different Drummer: Lesbians and Gay GIs in World War II,”</title> in eds.
+						<persName>Ann Snitow</persName>, <persName>Christine Stansell</persName>,
+					and <persName>Sharon Thompson</persName>, <title level="m">Powers of
+						Desire</title> (New York: Monthly Review Press, 1983, p. 89.</bibl>
+					<bibl>9
+							<persName>Katherine Archibald</persName>, <title level="m">Wartime
+							Shipyard</title> (Berkeley and Los Angeles: University of California
+						Press, 1947), pp. 22, 32.</bibl>
+					<bibl>10 <persName>Karen Anderson</persName>. <title level="m">Wartime
+							Women</title> (<placeName>Westport, Conn</placeName>.: Greenwood Press,
+						1981), p. 104</bibl>
+					<bibl>11 In <title level="a">&quot;Working-Class Women and Recruitment
+							Propaganda during World War II: Class Differences in the Portrayal of
+							War Work,&quot;</title> (<title level="j">Signs</title> 8, No. 4, 1983:
+						672-687), <persName>Maureen Honey</persName> has shown in her comparison of
+						fiction in the <title level="j">Saturday Evening Post</title> and <title
+							level="j">True Story</title> that the working-class confession magazine
+						consistently steered around portrayals of women as equal to their male
+						co-workers. In the <title level="j">Saturday Evening Post</title> fiction,
+						however, middle-class women war workers triumphed as leaders in the defense
+						effort. In these leadership roles the middle-class women were often superior
+						to working-class males.</bibl>
+			</listBibl>
+		</back>
 	</text>
 </TEI>
